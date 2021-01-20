@@ -1,0 +1,49 @@
+@media (max-width: 992px) {
+body {
+    font-size: 1rem;
+}
+.body1 {
+    padding: 3% 7% 3% 11%;
+    line-height: 28px;
+    font-size: 1rem;
+}
+.body2 {
+    padding: 3% 7% 3% 11%;
+    line-height: 28px;
+}
+.body2 #h1 {
+    font-size: 1.5rem;
+}
+.body2 p {
+    font-size: 1 rem;
+    line-height: 32px;
+}
+.prop {
+    margin-left: 40rem;
+}
+}
+@media (max-width: 768px) {
+body {
+    font-size: 0.9rem;
+}
+.body1 {
+    padding: 3% 4% 3% 6%;
+    line-height: 24px;
+    font-size: 0.9rem;
+}
+.body2 {
+    padding: 3% 4% 3% 6%;
+    line-height: 24px;
+}
+.body2 #h1 {
+    font-size: 1rem;
+}
+.body2 p {
+    font-size: 0.9rem;
+    line-height: 28px;
+}
+.container2 img {
+    height: 4rem;
+    width: 6rem;
+}
+}

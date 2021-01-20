@@ -1,10 +1,16 @@
 body {
     background-color: #F0F7FA;
     /* background-color: black; */
-    font-family: sans-serif, Times, serif;
+    font-family: 'Lora', serif;
+    font-family: 'Karla', sans-serif;
+    /* font-family: sans-serif, Times, serif; */
     font-size: 1.2rem;
     color: #222222;
     background-image: url(Asset/images/bg9.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .bodyimg {
     height: 600px;
@@ -20,6 +26,29 @@ body {
 #space1 {
     height: 200px;
     width: 100%;
+}
+.body1 {
+    width: 100%; 
+    background-color: #F0F7FA; 
+    padding: 3% 10% 3% 16%; 
+    line-height: 32px;
+}
+.body2 {
+    width: 100%; 
+    background-color: #F0F7FA; 
+    padding: 3% 10% 3% 16%;
+}
+.body2 #h1 {
+    font-size: 3rem;
+    font-family: 'Lora', serif;
+}
+.body2 p {
+    font-size: 1.25rem;
+    line-height: 36px;
+}
+.body1a img {
+    width: 60%;
+    height: 10%;
 }
 .carousel-indicators li {
     background-color: #B7D8D2;   
@@ -61,12 +90,11 @@ body {
 .container2 img:hover {
     box-shadow: 0 8px 15px rgba(0,0,0,0.13), 0 6px 6px rgba(0,0,0,0.15);
 }
-.navi {
+nav {
      height: 100px;
      font-size: 18px;
-     padding-left: 568px !important; 
-     margin-bottom: 50px;   
-     /* background-color: #F0F7FA; */
+     /* padding-left: 41.85% !important;  */  
+     background-color: #F0F7FA;
 }
 
 .paragraph {
@@ -85,7 +113,7 @@ body {
 #title2 {
      font-weight: 150;
      text-align: center;
-     color: #103152;
+     color: #172A3A;
 }
 a:link {
     color: #28805E;
@@ -101,15 +129,39 @@ a:hover {
     transition: .2s ease;
     color: #074346;
 }
+h2 a {
+    text-align: center;
+    background-color: black;
+    font-size: 2rem; 
+    color: #103152;
+    z-index: 2;
+}
+h2 a:visited {
+    color: #103152;
+  }
+h2 a:hover {
+    text-decoration: none;
+    transform: scale(0.9,0.9);
+    transition: 0s;
+}
 .top li {
-     padding-right: 15px;
+     padding-right: 1.1%;
      color: #28805E;
 }
 .top li a {
     text-decoration: none;
-    color: green;
-    display: inline-block;
+    color: #222222;
+    text-align: center;
+    display: block;
     position: relative;
+}
+.top li a:hover {
+    color: #28805E;
+}
+.top li a:hover:after {
+    color: #28805E;
+    width: 100%;
+    left: 0%;
 }
 .top li a:after {
     color: #28805E !important;
@@ -122,14 +174,6 @@ a:hover {
     background:  #28805E;
     transition: width 1s ease 0s, left 1s ease 0s;
     width: 0;
-}
-.top li a:hover:after {
-    color: #28805E;
-    width: 100%;
-    left: 0%;
-  }
-.top li a:hover {
-    color: #28805E;
 }
 .foot {
      color: #28805E;
@@ -166,7 +210,10 @@ a:active {
 }
 #button3 {
     color: #28805E;
+    border-radius: 0%;
     border-color: #28805E;
+    width: 5rem;
+    font-size: 1rem;
     outline: 0 none;
 }
 .btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active, .btn-outline-success.active, .open>.dropdown-toggle.btn-outline-success {
@@ -178,12 +225,12 @@ a:active {
 input, textarea {
     height: 50px;
     width: 100%;
-    border: 2px solid #3E9C87;
+    /* border: 2px solid #3E9C87; */
     border-radius: 4px;
     margin: 8px 0;
     padding: 6px;
     outline: none;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     transition: .3s;
 }
 textarea {
@@ -199,7 +246,7 @@ input[type=submit] {
 }
 input[type=submit]:hover, textarea:hover {
     border-color: #3E9C87;
-    box-shadow: 0 0 8px 0 #3E9C87;
+    box-shadow: 0 6px 8px #3E9C87;
 }
 /* form {
     width: 90%;
@@ -207,6 +254,9 @@ input[type=submit]:hover, textarea:hover {
     margin: 0 auto;
     display: flex;
 } */
+.card-title {
+    font-family: 'Lora', serif;
+}
 .gallery1 .card {
     box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.16);
     margin-bottom: 15px;
@@ -215,10 +265,9 @@ input[type=submit]:hover, textarea:hover {
     box-shadow: 0 8px 15px rgba(0,0,0,0.13), 0 6px 6px rgba(0,0,0,0.15);
     margin-bottom: 15px;
 }
-.gallery1 .card img {
-}
 .overlay {
-    padding: 35% 0 0 35%;
+    /* padding: 35% 0 0 35%; */
+    flex-direction: column;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -236,6 +285,7 @@ input[type=submit]:hover, textarea:hover {
   .image1 img {
     width: 100%;
     height: 100%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.13), 0 0 6px rgba(0,0,0,0.15);
   }
   .gallery1 .card:hover .overlay {
     opacity: 0.8;
