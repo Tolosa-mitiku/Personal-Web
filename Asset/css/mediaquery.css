@@ -21,9 +21,9 @@ body {
 .nav1 {
     padding-right: 0%;
 }
-/* .prop {
-    margin-left: 40rem;
-} */
+#prop {
+    margin-left: 5rem;
+}
 }
 @media (max-width: 768px) {
 body {

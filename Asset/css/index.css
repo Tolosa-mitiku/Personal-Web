@@ -79,7 +79,7 @@ body {
      margin-bottom: 7px;
      filter: brightness(40%);
 }
-.prop .card img {
+#prop .card img {
     box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.16);
     height: 270px;
     filter: brightness(100%);
