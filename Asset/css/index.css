@@ -1,12 +1,9 @@
 body {
     background-color: #F0F7FA;
-    /* background-color: black; */
     font-family: 'Lora', serif;
     font-family: 'Karla', sans-serif;
-    /* font-family: sans-serif, Times, serif; */
     font-size: 1.2rem;
     color: #222222;
-    background-image: url(Asset/images/bg9.jpg);
     top: 0;
     left: 0;
     right: 0;
@@ -229,12 +226,10 @@ a:active {
 input, textarea {
     height: 50px;
     width: 100%;
-    /* border: 2px solid #3E9C87; */
     border-radius: 4px;
     margin: 8px 0;
     padding: 6px;
     outline: none;
-    /* box-sizing: border-box; */
     transition: .3s;
 }
 textarea {
@@ -252,12 +247,6 @@ input[type=submit]:hover, textarea:hover {
     border-color: #3E9C87;
     box-shadow: 0 6px 8px #3E9C87;
 }
-/* form {
-    width: 90%;
-    left: 5%;
-    margin: 0 auto;
-    display: flex;
-} */
 .card-title {
     font-family: 'Lora', serif;
 }
@@ -270,7 +259,6 @@ input[type=submit]:hover, textarea:hover {
     margin-bottom: 15px;
 }
 .overlay {
-    /* padding: 35% 0 0 35%; */
     flex-direction: column;
     position: absolute;
     top: 0;
@@ -316,12 +304,10 @@ input[type=submit]:hover, textarea:hover {
 }
 .expcard .card{
     margin-top: 50px;
-    /* box-shadow: 3px 3px 3px rgba(0,0,0,0.1); */
     box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.16);
 }
 .expcard .card:hover{
     margin-top: 50px;
-    /* box-shadow: 9px 9px 9px rgba(0,0,0,0.2); */
     box-shadow: 0 8px 15px rgba(0,0,0,0.13), 0 6px 6px rgba(0,0,0,0.15);
 }
 
