@@ -18,9 +18,12 @@ body {
     font-size: 1 rem;
     line-height: 32px;
 }
-.prop {
-    margin-left: 40rem;
+.nav1 {
+    padding-right: 0%;
 }
+/* .prop {
+    margin-left: 40rem;
+} */
 }
 @media (max-width: 768px) {
 body {
